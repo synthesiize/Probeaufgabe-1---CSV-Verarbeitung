@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>CSV-Verarbeitung</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>CSV-Verarbeitung (Demo)</h1>
+
+  <div id="controls">
+    <label for="csvFile">CSV-Datei wählen:</label>
+    <input type="file" id="csvFile" accept=".csv" />
+    <button id="importBtn">Importieren</button>
+  </div>
+
+  <h2>Tabellarische Darstellung</h2>
+  <table id="csvTable">
+    <thead>
+      <!-- Dynamisch gefüllt -->
+    </thead>
+    <tbody>
+      <!-- Dynamisch gefüllt -->
+    </tbody>
+  </table>
+
+  <h2>Neuen Datensatz anlegen</h2>
+  <div id="newRowForm" class="form-container">
+    <!-- Dynamisch gefüllt -->
+  </div>
+  <button id="addRowBtn">Datensatz hinzufügen</button>
+
+  <h2>Prozentuale Darstellung</h2>
+  <div>
+    <label for="columnSelect">Spalte wählen:</label>
+    <select id="columnSelect"></select>
+    <button id="showChartBtn">Diagramm anzeigen</button>
+  </div>
+  <div id="chartContainer">
+    <canvas id="myChart"></canvas>
+  </div>
+
+  <div style="margin-top: 20px;">
+    <button id="exportBtn">Alle Daten als CSV exportieren</button>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.2/papaparse.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.2.1/dist/chart.umd.min.js"></script>
+
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-image: url("images/background_img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h1, h2 {
+  margin-bottom: 10px;
+}
+
+#controls {
+  margin-bottom: 20px;
+}
+
+.form-container {
+  margin-bottom: 10px;
+}
+
+.form-container input {
+  margin-right: 5px;
+}
+
+#tableContainer {
+  margin-bottom: 20px;
+}
+
+#chartContainer {
+  width: 400px;
+  height: 400px;
+  margin-top: 20px;
+}
+
+
+
