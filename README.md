@@ -9,7 +9,7 @@ Folgende Technologien / Frameworks setze ich in meinem Projekt ein:
 - JavaScript
 - PapaParse
 
-Ich habe mich für PapaParse und ChartJS entschieden, weil die am simpelsten aussehen und überschaubar sind. 
+Ich habe mich für PapaParse und ChartJS entschieden, weil diese am simpelsten aussehen und überschaubar sind.
 
 ## Eingesetzte 3rd Party Libraries
 
